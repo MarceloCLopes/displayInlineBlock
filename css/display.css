@@ -1,0 +1,35 @@
+/*Display: inline-block = inline + block
+  podemos fazer tuso o que o display: inline faz + tudo o que o display:block faz.
+
+  * Justificar
+  * Alinhamento do objeto, etc
+*/
+
+.exemple {
+  color: #ffffff;
+  text-align: justify;
+}
+
+.exemple::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+.exemple-item {
+  display: inline-block;
+  width: 25%;
+  height: 150px;
+}
+
+.exemple-item_first {
+  background-color: #faa116;
+}
+
+.exemple-item_second {
+  background-color: #57c7c3;
+}
+
+.exemple-item_third {
+  background-color: #3b97d3;
+}
