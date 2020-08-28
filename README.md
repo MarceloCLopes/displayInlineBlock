@@ -1,0 +1,2 @@
+# displayInlineBlock
+display: inline-block;
